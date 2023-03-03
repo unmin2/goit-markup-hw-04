@@ -167,6 +167,11 @@ ul {
 }
 
 .section-first {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/peopleoffice.jpg);
   background-color: var(--title-text-color);
   text-align: center;
   padding-bottom: 188px;
@@ -205,6 +210,8 @@ ul {
 .buttons-list:focus {
   background-color: #404bbf;
   color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-order {
@@ -219,6 +226,7 @@ ul {
   text-align: center;
   display: inline-block;
   border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .button-order:hover,
@@ -253,6 +261,19 @@ ul {
   display: flex;
   gap: 24px;
 }
+.icon-btn {
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+  background: #f4f4fd;
+  border-radius: 4px;
+  border: none;
+  padding: 0;
+}
+.icon-img {
+  width: 64px;
+  height: 64px;
+}
 
 .cards-team {
   background: #ffffff;
@@ -269,9 +290,40 @@ ul {
 }
 .team-p {
   margin: 0;
+  margin-bottom: 8px;
 }
 .cards-team {
   justify-content: center;
+}
+.team-icon {
+  display: flex;
+  justify-content: center;
+}
+.icon-li {
+  margin-right: 24px;
+  width: 40px;
+  height: 40px;
+}
+.icon-li:last-child {
+  margin-right: 0;
+}
+.icon-list {
+  width: 16px;
+  height: 16px;
+}
+.icon-bgr {
+  border-radius: 50%;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  background: #4d5ae5;
+  align-items: center;
+  justify-content: center;
+}
+.icon-brg:hover,
+.icon-brg:focus {
+  background: #404bbf;
 }
 .section-list {
   color: var(--title-text-color);
@@ -347,6 +399,62 @@ ul {
   text-decoration: none;
   padding: 0;
 }
+.list-cards:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.section-customers {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+.title-customers {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 72px;
+}
+.icon-ul {
+  display: flex;
+  justify-content: center;
+}
+.icon-customers {
+  display: flex;
+  justify-content: center;
+  margin-right: 24px;
+}
+.icon-customers:last-child {
+  margin-right: 0;
+}
+.icon-a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+.icon-a:hover,
+.icon-a:focus {
+  border: 1px solid #404bbf;
+  border-radius: 4px;
+}
+.icon-svg {
+  width: 104px;
+  height: 56px;
+}
+
+.icon-use {
+  fill: #8e8f99;
+}
+.icon-use:hover,
+.icon-use:focus {
+  fill: #404bbf;
+}
+
 .footer {
   background-color: var(--title-text-color);
   padding-bottom: 0;
@@ -354,10 +462,41 @@ ul {
   padding-bottom: 100px;
 }
 .footer-p {
+  width: 264px;
   color: #e7e9fc;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   margin: 0;
   margin: 0;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+.social-title {
+  width: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.icon-f {
+  border-radius: 50%;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.1);
+  align-items: center;
+  justify-content: center;
+}
+.icon-social {
+  fill: #f4f4fd;
 }
