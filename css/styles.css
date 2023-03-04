@@ -472,14 +472,13 @@ ul {
 }
 .social-media {
   display: flex;
-  justify-content: center;
+}
+.media {
+  margin-left: 120px;
 }
 .social-title {
+  margin-bottom: 16px;
   width: 96px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -496,6 +495,10 @@ ul {
   background: rgba(255, 255, 255, 0.1);
   align-items: center;
   justify-content: center;
+}
+.icon-f:hover,
+.icon-f:focus {
+  background: #31d0aa;
 }
 .icon-social {
   fill: #f4f4fd;
