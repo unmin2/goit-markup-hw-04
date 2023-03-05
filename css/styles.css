@@ -212,6 +212,7 @@ ul {
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: 0;
 }
 
 .button-order {
@@ -262,6 +263,8 @@ ul {
   gap: 24px;
 }
 .icon-btn {
+  display: flex;
+  justify-content: center;
   width: 264px;
   height: 112px;
   margin-bottom: 8px;
@@ -271,8 +274,10 @@ ul {
   padding: 0;
 }
 .icon-img {
+  display: inline-block;
   width: 64px;
   height: 64px;
+  margin-top: 24px;
 }
 
 .cards-team {
@@ -321,8 +326,8 @@ ul {
   align-items: center;
   justify-content: center;
 }
-.icon-brg:hover,
-.icon-brg:focus {
+.icon-bgr:hover,
+.icon-bgr:focus {
   background: #404bbf;
 }
 .section-list {
@@ -428,6 +433,12 @@ ul {
 .icon-customers:last-child {
   margin-right: 0;
 }
+.icon-customers:hover,
+.icon-customers:focus {
+  border: 1px solid #404bbf;
+  border-radius: 4px;
+  fill: #404bbf;
+}
 .icon-a {
   display: flex;
   justify-content: center;
@@ -437,11 +448,7 @@ ul {
   border: 1px solid #8e8f99;
   border-radius: 4px;
 }
-.icon-a:hover,
-.icon-a:focus {
-  border: 1px solid #404bbf;
-  border-radius: 4px;
-}
+
 .icon-svg {
   width: 104px;
   height: 56px;
@@ -449,10 +456,6 @@ ul {
 
 .icon-use {
   fill: #8e8f99;
-}
-.icon-use:hover,
-.icon-use:focus {
-  fill: #404bbf;
 }
 
 .footer {
@@ -502,4 +505,8 @@ ul {
 }
 .icon-social {
   fill: #f4f4fd;
+}
+.icon-media {
+  width: 24px;
+  height: 24px;
 }
