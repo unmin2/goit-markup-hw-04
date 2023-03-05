@@ -429,14 +429,19 @@ ul {
   display: flex;
   justify-content: center;
   margin-right: 24px;
-}
-.icon-customers:last-child {
-  margin-right: 0;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
 }
 .icon-customers:hover,
 .icon-customers:focus {
   border: 1px solid #404bbf;
   border-radius: 4px;
+}
+.icon-customers:last-child {
+  margin-right: 0;
+}
+.icon-customers:hover .icon-use,
+.icon-customers:focus .icon-use {
   fill: #404bbf;
 }
 .icon-a {
@@ -445,8 +450,6 @@ ul {
   align-items: center;
   width: 168px;
   height: 88px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
 }
 
 .icon-svg {
